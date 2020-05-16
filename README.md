@@ -24,7 +24,7 @@ The data is contained in three files:
 
 ## Results and Findings<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@joshua.chyeung/send-out-a-starbucks-offer-that-you-cannot-resist-2d4d7d18b417).
+The main outcomes of the code can be found at the post available [here](https://medium.com/@aniruddha.connect/how-to-recommend-personalized-offer-to-customer-using-starbucks-data-64b9ed8019b).
 
 Based on the transcript records, we build an user-item-matrix that represents how users responded to the offers they received. We then split the records into the training set and the test set and trained our SVD algorithm to predict how a user responses to a particular offer. We achieved the lowest mean square error around 0.003823 with 15 latent features with the training set and around 0.009175 with 10 latent features with the testing set. After that, we created a recommendation engine that recommends Starbucks which offer should be sent to a particular user.
 
